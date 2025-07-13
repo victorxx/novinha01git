@@ -1,99 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-        <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color:black;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        #ok {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 10px;
-        }
-        #ok a {
-            margin: 5px;
-            border: 1px solid #ccc;
-            display: inline-block;
-            width: 100%;
-            max-width: 300px;
-        }
-        #ok img {
-            width: 100%;
-            height: auto;
-            display: block;
-            border: 1px solid #ddd;
-            box-sizing: border-box;
-        }
-        @media (max-width: 600px) {
-            #ok img {
-                max-width: 100%;
-                height: auto;
-            }
-        }
-    </style>
-
-    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+  <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Meta Tags para SEO -->
-    <meta name="description" content="Explore imagens de mulheres bonitas e elegantes, capturando sua beleza única e estilo em diferentes cenários. Confira as fotos de mulheres incríveis de diversas culturas e estilos.">
-    <meta name="keywords" content="mulheres bonitas, fotos de mulheres, beleza feminina, mulheres elegantes, mulheres estilosas, mulheres incríveis, mulheres famosas, beleza internacional, imagens de mulheres">
-    <meta name="author" content="Seu Nome ou Nome da Empresa">
-    <meta name="robots" content="index, follow"> <!-- Motores de busca podem indexar a página e seguir links -->
-    
-    <!-- Open Graph (OG) para Facebook e Redes Sociais -->
-    <meta property="og:title" content="Imagens de Mulheres Bonitas - Beleza e Estilo">
-    <meta property="og:description" content="Veja uma coleção incrível de imagens de mulheres bonitas e estilosas. Descubra fotos fascinantes de mulheres em diferentes cenários e estilos, destacando sua beleza única.">
-    <meta property="og:image" content="URL_da_imagem_principal_da_página.jpg"> <!-- Imagem que será exibida no compartilhamento -->
-    <meta property="og:url" content="URL_da_sua_página"> <!-- URL da página -->
-    <meta property="og:type" content="website"> <!-- Tipo de conteúdo -->
-    
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image"> <!-- Exibe imagem grande ao compartilhar no Twitter -->
-    <meta name="twitter:title" content="Imagens de Mulheres Bonitas - Beleza e Estilo">
-    <meta name="twitter:description" content="Confira uma galeria de imagens de mulheres bonitas e elegantes, com fotos que capturam sua beleza única e estilos incríveis.">
-    <meta name="twitter:image" content="URL_da_imagem_para_twitter.jpg"> <!-- Imagem otimizada para Twitter -->
-
-    <!-- Favicon -->
-    <link rel="icon" href="caminho/para/o/favicon.ico" type="image/x-icon">
-    
-    <!-- Charset e conteúdo da página -->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <!-- Título da página -->
-    <title>Imagens de Mulheres Bonitas - Beleza e Estilo</title>
-
-    <!-- CSS para melhorar a responsividade -->
-
-</head>
-<body>
-
-    <div id="ok"></div>
-
+    <title>Redirecionamento</title>
+  </head>
+  <body>
     <script>
-        for(let i=0; i<100; i++) {
-            const link = document.createElement('a');
-            link.href = 'https://victorxx.github.io/piadagithub01/';
-            link.target = '_blank';
-
-            const image = document.createElement('img');
-            image.src = `novinhas_${i}.jpg`;  // Nome das imagens de mulheres bonitas
-            image.alt = `Imagem de Mulher Bonita ${i + 1}`;  // Adiciona o texto alternativo para SEO
-
-            // Tratamento de erro para a imagem
-            image.onerror = function(){
-                image.style.display = 'none';
-            };
-
-            link.appendChild(image);
-            document.getElementById('ok').appendChild(link);
-        }
+      window.onload = function() {
+        // Redireciona para outra URL
+        window.location.href = "https://victorxx.github.io/japa01gitub/"; // Substitua com o seu link
+      }
     </script>
-
-</body>
+  </body>
 </html>
